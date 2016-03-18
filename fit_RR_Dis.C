@@ -12,7 +12,7 @@ using namespace std;
 void fit_RR_Dis(){
 
 
-	TString fileString = "./30S+a/calcRate/30S4He_new.root";
+	TString fileString = "../30S+a/calcRate/testing.root";
 	Double_t quant[7];
     Double_t quantPosition[7] = {0.01,0.025,0.16,0.5,0.84,0.975,1.0};
 

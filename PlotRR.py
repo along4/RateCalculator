@@ -4,14 +4,14 @@ from collections import defaultdict
 import numpy as np
 
 from matplotlib import pyplot
-import matplotlib.colors as cl
+#import matplotlib.colors as cl
 from matplotlib.ticker import LogLocator, FormatStrFormatter, MaxNLocator
 from matplotlib import gridspec
 
 
 
 folder = '30S+a'
-savefile = 'rate_'+folder+'.pdf'
+savefile = '../rate_'+folder+'_alpha'+'.pdf'
 
 if os.path.isfile(savefile):
 	os.remove(savefile)
@@ -21,9 +21,11 @@ t = [.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1.5,2,3,4,5,6,7,8,9,10]
 temps = np.asarray(t)
 
 
-talysFile = './'+folder+'/HFRates/talys1.6/astrorate.p'
-nonSmokerFile = './'+folder+'/HFRates/nonSmoker/nonSmokerWeb.dat'
-calcRateFile = './'+folder+'/rateFit.dat'
+talysFile = '../'+folder+'/HFRates/talys1.6/astrorate.p'
+nonSmokerFile = '../'+folder+'/HFRates/nonSmoker/nonSmokerWeb.dat'
+calcRateFile = '../'+folder+'/rateFit_alphaClustering.dat'
+#calcRateFile = '../'+folder+'/rateFit.dat'
+
 #quotedFile = './'+folder+'/quotedRates/almaraz.dat'
 
 
@@ -189,7 +191,7 @@ colors = ['#2c7bb6','#abcae9','#d7191c','#fdae61','#ffffbf']
 #Plotting all rates.
 #....................................................................... 
 
-nonSmokerPlot, = axis1.plot(temps,NsRate, color=colors[1], linewidth=1.5, alpha=2.01,linestyle="-", label = 'NON-SMOKER Rate')
+nonSmokerPlot, = axis1.plot(temps,NsRate, color=colors[1], linewidth=1.5,linestyle="-", label = 'NON-SMOKER Rate')
 nonSmokerPlot_up = axis1.plot(temps,NsRate_10up, color=colors[1], alpha=0.01,linewidth=1.5, linestyle="-", label = 'NON-SMOKER Rate')
 nonSmokerPlot_down = axis1.plot(temps,NsRate_10down, color=colors[1], alpha=0.01,linewidth=1.5, linestyle="-", label = 'NON-SMOKER Rate')
 tayls16Plot, = axis1.plot(temps,talysRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'talys1.6 Rate')
@@ -207,7 +209,7 @@ lower95RatePlot, = axis1.plot(temps,lower95Rate, color=colors[3], linewidth=1.5,
 axis1.fill_between(temps, NsRate_10down,NsRate_10up, color=colors[1],alpha=0.4)
 axis1.fill_between(temps, lowerRate ,upperRate, color=colors[3],alpha=0.5)
 
-axis2.plot(temps,NsRatioRate, color=colors[1], linewidth=1.5, alpha=2.01,linestyle="-", label = 'NON-SMOKER Rate')
+axis2.plot(temps,NsRatioRate, color=colors[1], linewidth=1.5,linestyle="-", label = 'NON-SMOKER Rate')
 axis2.plot(temps,NsRatioRate_10down, color=colors[1], linewidth=1.5, alpha=0.01, linestyle="-", label = 'NON-SMOKER Rate down')
 axis2.plot(temps,NsRatioRate_10up, color=colors[1], linewidth=1.5, alpha=0.01, linestyle="-", label = 'NON-SMOKER Rate up')
 axis2.plot(temps,talysRatioRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'talys1.6 Rate')
@@ -231,7 +233,7 @@ axis1.legend
 pyplot.xticks([.2,.3,.4,.5,1,2,3],[ r'.2', r'.3', r'.4', r'.5', r'1', r'2', r'3'])
 
 
-#pyplot.show()
+pyplot.show()
 pyplot.savefig(savefile)
 
 

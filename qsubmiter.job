@@ -1,0 +1,8 @@
+#!/bin/csh
+#$ -M along4@nd.edu
+#$ -m ae
+
+source ~/Programs/root/bin/thisroot.csh
+module load python
+
+python calcNarrowResRate.py 30S4He_new 100000000

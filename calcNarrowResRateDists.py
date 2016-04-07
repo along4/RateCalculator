@@ -22,10 +22,10 @@ import ROOT
 #........................................................................................................
 #	Files to read in and read out to.
 #........................................................................................................
-resInfoFile = '../30S+a/ResonanceInfo.dat'
+resInfoFile = '../34Ar+a/ResonanceInfo.dat'
 
 
-outputRootFile = "../30S+a/calcRate/"+ sys.argv[1] + ".root"
+outputRootFile = "../34Ar+a/calcRate/"+ sys.argv[1] + ".root"
 
 #	Creating a dictionary to read resonance parameters into.
 #........................................................................................................
@@ -93,17 +93,17 @@ def calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass)
 #	
 #........................................................................................................
 def calcReactionRate(resonances,temps,Thres,masses):
-	alphaStrength =  0.01
+	alphaStrength =  0.15
 	protonStrength = 0.01
 	reducedMass = masses[0]*masses[1]/(masses[0]+masses[1])
 	resonanceEnergies = [calcResonacneEnergy(resonances,exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]
 	resonanceStrengths = [calcResonanceStrength(random.randrange(0,5),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
-        
-        # Creating one posibble alpha cluster state
-        i = random.randint(0,4)
-        resonanceStrengths[i] = resonanceStrengths[i]*10
+	
+	#Creating one posibble alpha cluster state
+	#i = random.randint(0,4)
+	#resonanceStrengths[i] = resonanceStrengths[i]*10
 
-        reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
+	reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
 	return reactionRate
 
 

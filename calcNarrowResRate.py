@@ -20,12 +20,9 @@ from scipy import stats
 import ROOT
 
 #........................................................................................................
-#	Files to read in and read out to.
+#	Resonance file to read in.
 #........................................................................................................
 resInfoFile = '../34Ar+a/ResonanceInfo.dat'
-
-
-outputRootFile = "../34Ar+a/calcRate/"+ sys.argv[1] + ".root"
 
 #	Creating a dictionary to read resonance parameters into.
 #........................................................................................................
@@ -37,8 +34,7 @@ temps = np.array([.1,.15,.2,.3,.4,.5,.6,.7,.8,.9,1,1.5,2,2.5,3,3.5,4,5,6,7,8,9,1
 
 #	Other Globals
 #........................................................................................................
-n = int(sys.argv[2])	# NUMBER OF TIME TO CALCULATE THE REACTION RATE
-reactionRateSamples = []	# list to store reaction rate calculations.
+
 
 
 
@@ -77,6 +73,7 @@ def calcResonanceStrength(jRes,resonances,exState,alphaStrength,protonStrength):
 	protonW = protonStrength*resonances[exState][jRes]['proton']
 	gammaW = resonances[exState][jRes]['gamma']/1E6
 	resStrength = (2*jRes+1)*alphaW*protonW/(alphaW+protonW+gammaW)
+	print '%d \t %e \t %e' % (jRes,alphaW,protonW)
 	return resStrength
 
 #	
@@ -97,14 +94,16 @@ def calcReactionRate(resonances,temps,Thres,masses):
 	protonStrength = 0.01
 	reducedMass = masses[0]*masses[1]/(masses[0]+masses[1])
 	resonanceEnergies = [calcResonacneEnergy(resonances,exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]
+	print "jRes \t Alpha W \t Proton W "
+	print "----------------------------"
 	resonanceStrengths = [calcResonanceStrength(random.randrange(0,5),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
-        
-    # Creating one posibble alpha cluster state
-    i = random.randint(0,4)
-    resonanceStrengths[i] = resonanceStrengths[i]*10
-
-    reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
 	
+	# Creating one posibble alpha cluster state
+	#i = random.randint(0,4)
+	#resonanceStrengths[i] = resonanceStrengths[i]*10
+
+	
+	reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
 	return reactionRate
 
 
@@ -138,10 +137,11 @@ with open(resInfoFile,'r') as resInfoFile:
 #
 #........................................................................................................
 numRate = calcReactionRate(resonances,temps,alphaThres,masses)
-	
-	
-for temp in range(len(temps):
-	print numRate[i]
+
+print "temps \t Rate "
+print "--------------"
+for i in range(len(temps)):
+	print "%f \t %e" % (temps[i],numRate[i])
 
 
 

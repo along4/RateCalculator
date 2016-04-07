@@ -5,4 +5,4 @@
 source ~/Programs/root/bin/thisroot.csh
 module load python
 
-python calcNarrowResRate.py 30S4He_new 100000000
+python calcNarrowResRate.py 34Ar4He_High 100000000

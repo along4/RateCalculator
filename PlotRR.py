@@ -10,7 +10,7 @@ from matplotlib import gridspec
 
 
 
-folder = '30S+a'
+folder = '34Ar+a'
 savefile = '../rate_'+folder+'_alpha'+'.pdf'
 
 if os.path.isfile(savefile):
@@ -23,7 +23,9 @@ temps = np.asarray(t)
 
 talysFile = '../'+folder+'/HFRates/talys1.6/astrorate.p'
 nonSmokerFile = '../'+folder+'/HFRates/nonSmoker/nonSmokerWeb.dat'
-calcRateFile = '../'+folder+'/rateFit_alphaClustering.dat'
+calcRateFile = '../'+folder+'/rateFit.dat'
+standardRateFile = '../'+folder+'/randStandardRate.dat'
+rMatrixRateFile = '../'+folder+'/RmatrixRate/rate.dat'
 #calcRateFile = '../'+folder+'/rateFit.dat'
 
 #quotedFile = './'+folder+'/quotedRates/almaraz.dat'
@@ -126,6 +128,33 @@ with open(calcRateFile,'r') as rateFile:
 			upperRate.append(float(rateline[7]))
 
 
+#	Reading in RMatrix Rates from file.
+#....................................................................... 
+rmTemp = []
+rmRate = []
+
+with open(rMatrixRateFile,'r') as rmFile:
+
+	for line in rmFile:
+		rmline = line.split()
+		if float(rmline[0]) in temps:
+			rmTemp.append(float(rmline[0]))
+			rmRate.append(float(rmline[1]))
+
+#	Reading in random spin Rate from file.
+#....................................................................... 
+rdStanTemp = []
+rdStanRate = []
+
+with open(standardRateFile,'r') as rdStanFile:
+
+	for line in rdStanFile:
+		rdStanline = line.split()
+		if float(rdStanline[0]) in temps:
+			rdStanTemp.append(float(rdStanline[0]))
+			rdStanRate.append(float(rdStanline[1]))
+
+
 ########################################################################
 #	Normalizing all rates to the TALYS rate 
 ########################################################################
@@ -133,7 +162,10 @@ with open(calcRateFile,'r') as rateFile:
 if folder == '26Si+a':
 	qRatioRate = [float(rate) / float(NS) for rate,NS in zip(qRate, NsRate)]
 
+
 talysRatioRate = [float(rate) / float(NS) for rate,NS in zip(talysRate, NsRate)]
+rmRatioRate = [float(rate) / float(NS) for rate,NS in zip(rmRate, NsRate)]
+rdStanRatioRate = [float(rate) / float(NS) for rate,NS in zip(rdStanRate, NsRate)]
 NsRatioRate = [float(rate) / float(NS) for rate,NS in zip(NsRate, NsRate)]
 NsRatioRate_10up = [float(rate) / float(NS) for rate,NS in zip(NsRate_10up, NsRate)]
 NsRatioRate_10down = [float(rate) / float(NS) for rate,NS in zip(NsRate_10down, NsRate)]
@@ -185,7 +217,7 @@ axis2.set_ylabel('Normalized to \nNON-SMOKER$^{WEB}$', fontsize=16,labelpad=+5)
 
 #colors= [  talys  ,nonSmoker, Starlib , fitRate , MCRate  ]
 #....................................................................... 
-colors = ['#2c7bb6','#abcae9','#d7191c','#fdae61','#ffffbf']
+colors = ['#2c7bb6','#abcae9','#d7191c','#fdae61','#ffffbf','#4110B2']
 
 
 #Plotting all rates.
@@ -195,6 +227,8 @@ nonSmokerPlot, = axis1.plot(temps,NsRate, color=colors[1], linewidth=1.5,linesty
 nonSmokerPlot_up = axis1.plot(temps,NsRate_10up, color=colors[1], alpha=0.01,linewidth=1.5, linestyle="-", label = 'NON-SMOKER Rate')
 nonSmokerPlot_down = axis1.plot(temps,NsRate_10down, color=colors[1], alpha=0.01,linewidth=1.5, linestyle="-", label = 'NON-SMOKER Rate')
 tayls16Plot, = axis1.plot(temps,talysRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'talys1.6 Rate')
+rmatrixPlot, = axis1.plot(temps,rmRate, color=colors[5], linewidth=1.5,linestyle="--", label = 'R-Matrix Rate')
+rdStanPlot, = axis1.plot(temps,rdStanRate, color=colors[5], linewidth=1.5,linestyle="-", label = 'random spin set Rate')
 #if folder == '26Si+a':
 #	qPlot, = axis1.plot(temps,qRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'Almaraz Rate')
 
@@ -213,6 +247,8 @@ axis2.plot(temps,NsRatioRate, color=colors[1], linewidth=1.5,linestyle="-", labe
 axis2.plot(temps,NsRatioRate_10down, color=colors[1], linewidth=1.5, alpha=0.01, linestyle="-", label = 'NON-SMOKER Rate down')
 axis2.plot(temps,NsRatioRate_10up, color=colors[1], linewidth=1.5, alpha=0.01, linestyle="-", label = 'NON-SMOKER Rate up')
 axis2.plot(temps,talysRatioRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'talys1.6 Rate')
+axis2.plot(temps,rmRatioRate, color=colors[5], linewidth=1.5, linestyle="--", label = 'R-Matrix Rate')
+axis2.plot(temps,rdStanRatioRate , color=colors[5], linewidth=1.5, linestyle="-", label = 'R-Matrix Rate')
 #if folder == '26Si+a':
 #	axis2.plot(temps,qRatioRate, color=colors[0], linewidth=1.5, linestyle="-", label = 'Almaraz Rate')
 axis2.plot(temps,medianRatioRate, color=colors[2], linewidth=1.5, linestyle="-", label = 'medianRatioRate')
@@ -228,7 +264,7 @@ axis2.fill_between(temps, lowerRatioRate ,upperRatioRate, color=colors[3],alpha=
 
 #	Setting up the legend and ticks.
 #....................................................................... 
-axis1.legend([nonSmokerPlot,tayls16Plot,medianRatePlot,upper68RatePlot,upper95RatePlot],[r'NON-SMOKER$^{WEB}$','Talys 1.6','Median Rate','68% limit','95% limit'],loc=2,frameon = False)
+axis1.legend([nonSmokerPlot,tayls16Plot,medianRatePlot,upper68RatePlot,upper95RatePlot,rmatrixPlot,rdStanPlot],[r'NON-SMOKER$^{WEB}$','Talys 1.6','Median Rate','68% limit','95% limit','R-Matrix Plot','Random Spin Set'],loc=2,frameon = False)
 axis1.legend
 pyplot.xticks([.2,.3,.4,.5,1,2,3],[ r'.2', r'.3', r'.4', r'.5', r'1', r'2', r'3'])
 

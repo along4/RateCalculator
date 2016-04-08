@@ -73,7 +73,7 @@ def calcResonanceStrength(jRes,resonances,exState,alphaStrength,protonStrength):
 	protonW = protonStrength*resonances[exState][jRes]['proton']
 	gammaW = resonances[exState][jRes]['gamma']/1E6
 	resStrength = (2*jRes+1)*alphaW*protonW/(alphaW+protonW+gammaW)
-	print '%d \t %e \t %e' % (jRes,alphaW,protonW)
+	print '%f \t %d \t %e \t %e' % (exState,jRes,alphaW,protonW)
 	return resStrength
 
 #	

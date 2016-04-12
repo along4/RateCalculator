@@ -67,7 +67,7 @@ def calcResonacneEnergy(resonance,exState,Thres):
 
 #	
 #........................................................................................................
-def calcResonanceStrength(jRes,resonances,exState,alphaStrength,protonStrength):
+def calcResonanceStrength(jRes,resonances,exState,protonStrength,alphaStrength):
 
 	alphaW = alphaStrength*resonances[exState][jRes]['alpha']
 	protonW = protonStrength*resonances[exState][jRes]['proton']
@@ -90,7 +90,7 @@ def calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass)
 #	
 #........................................................................................................
 def calcReactionRate(resonances,temps,Thres,masses):
-	alphaStrength =  0.15
+	alphaStrength =  0.01
 	protonStrength = 0.01
 	reducedMass = masses[0]*masses[1]/(masses[0]+masses[1])
 	resonanceEnergies = [calcResonacneEnergy(resonances,exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]

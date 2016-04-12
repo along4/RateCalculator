@@ -1,0 +1,2258 @@
+SysError in <TFile::Flush>: error flushing file ../34Ar+a/calcRate/34Ar4He_High.root (Disk quota exceeded)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=89186254
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=89186254
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=89186254
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=89363588
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=89363588
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=89363588
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=89540922
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=89540922
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=89540922
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=89718256
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=89718256
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=89718256
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=89895590
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=89895590
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=89895590
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90072924
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90072924
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90072924
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90250258
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90250258
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90250258
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90427592
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90427592
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90427592
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90604926
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90604926
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90604926
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90782260
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90782260
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90782260
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=90959594
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=90959594
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=90959594
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=91136928
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=91136928
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=91136928
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=91314262
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=91314262
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=91314262
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=91491596
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=91491596
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=91491596
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=91668930
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=91668930
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=91668930
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=91846264
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=91846264
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=91846264
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92023598
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92023598
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92023598
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92200932
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92200932
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92200932
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92378266
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92378266
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92378266
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92555600
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92555600
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92555600
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92732934
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92732934
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92732934
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=92910268
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=92910268
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=92910268
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93087602
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93087602
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93087602
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93264936
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93264936
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93264936
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93442270
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93442270
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93442270
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93619604
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93619604
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93619604
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93796938
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93796938
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93796938
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=93974272
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=93974272
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=93974272
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=94151606
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=94151606
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=94151606
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=94328940
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=94328940
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=94328940
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=94506274
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=94506274
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=94506274
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=94683608
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=94683608
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=94683608
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=94860942
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=94860942
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=94860942
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95038276
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95038276
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95038276
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95215610
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95215610
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95215610
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95392944
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95392944
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95392944
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95570278
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95570278
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95570278
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95747612
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95747612
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95747612
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=95924946
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=95924946
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=95924946
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96102280
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96102280
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96102280
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96279614
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96279614
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96279614
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96456948
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96456948
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96456948
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96634282
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96634282
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96634282
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96811616
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96811616
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96811616
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=96988950
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=96988950
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=96988950
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=97166284
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=97166284
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=97166284
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=97343618
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=97343618
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=97343618
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=97520952
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=97520952
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=97520952
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=97698286
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=97698286
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=97698286
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=97875620
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=97875620
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=97875620
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98052954
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98052954
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98052954
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98230288
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98230288
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98230288
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98407622
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98407622
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98407622
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98584956
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98584956
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98584956
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98762290
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98762290
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98762290
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=98939624
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=98939624
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=98939624
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=99116958
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=99116958
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=99116958
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=99294292
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=99294292
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=99294292
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=99471626
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=99471626
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=99471626
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=99648960
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=99648960
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=99648960
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0010, nbytes=-1, entry=99826294
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0015, nbytes=-1, entry=99826294
+ This error is symptomatic of a Tree created as a memory-resident Tree
+ Instead of doing:
+    TTree *T = new TTree(...)
+    TFile *f = new TFile(...)
+ you should do:
+    TFile *f = new TFile(...)
+    TTree *T = new TTree(...)
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0020, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0030, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0040, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0050, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0060, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0070, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0080, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0090, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0100, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0150, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0200, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0250, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0300, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0350, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0400, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0500, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0600, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0700, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0800, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_0900, nbytes=-1, entry=99826294
+Error in <TTree::Fill>: Failed filling branch:temps.temp_1000, nbytes=-1, entry=99826294

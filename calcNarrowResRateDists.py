@@ -71,7 +71,7 @@ def calcResonacneEnergy(resonance,exState,Thres):
 
 #	
 #........................................................................................................
-def calcResonanceStrength(jRes,resonances,exState,alphaStrength,protonStrength):
+def calcResonanceStrength(jRes,resonances,exState,protonStrength,alphaStrength):
 
 	alphaW = alphaStrength*resonances[exState][jRes]['alpha']
 	protonW = protonStrength*resonances[exState][jRes]['proton']

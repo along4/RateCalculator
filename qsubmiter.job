@@ -5,4 +5,4 @@
 source ~/Programs/root/bin/thisroot.csh
 module load python
 
-python calcNarrowResRateDists.py 34Ar4He_High 100000000
+python calcNarrowResRateDists.py 34Ar4He_High_test 1000000

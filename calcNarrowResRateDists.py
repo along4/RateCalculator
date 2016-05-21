@@ -93,17 +93,20 @@ def calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass)
 #	
 #........................................................................................................
 def calcReactionRate(resonances,temps,Thres,masses):
-	alphaStrength =  0.15
+	alphaStrength =  0.01
 	protonStrength = 0.01
 	reducedMass = masses[0]*masses[1]/(masses[0]+masses[1])
 	resonanceEnergies = [calcResonacneEnergy(exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]
-	resonanceStrengths = [calcResonanceStrength(random.randrange(0,5),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
+	resonanceStrengths = [calcResonanceStrength(getFGasSpin(exState),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
+	#resonanceStrengths = [calcResonanceStrength(random.randrange(0,5),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
 	
 	#Creating one posibble alpha cluster state
+	#.........................................
 	#i = random.randint(0,4)
 	#resonanceStrengths[i] = resonanceStrengths[i]*10
 
 	# A testing print statement
+	# .........................
 	#for i in range(len(resonanceEnergies)):
 	#	print '%e\t%e' % (resonanceEnergies[i],resonanceStrengths[i])
 
@@ -112,7 +115,7 @@ def calcReactionRate(resonances,temps,Thres,masses):
 
 #	
 #........................................................................................................
-def getFGasSpinAtGivenEnergy(exEnergy):
+def getFGasSpin(exEnergy):
 	A = 37.976318 				# Mass of 38Ca in amu
 	gamma = 0.12204				# Damping parameter
 	aTilde = 4.95218			# Asymptotic level density value
@@ -121,12 +124,24 @@ def getFGasSpinAtGivenEnergy(exEnergy):
 	discreteSigma = 1.58114 	# Discrete spin cut off parameter
 	energyMiddle = 0.5*(5.6980+4.748000)
 
-
 	U = exEnergy - 12.0/np.sqrt(A) + 0.90090 
 	a = aTilde*(1+detlaW*((1-np.exp(-gamma*U))/U))
 	spinCut2F = 0.01389*A**(5.0/3.0)/aTilde*np.sqrt(a*U)
-	spinCut2 = np.sqrt(discreteSigma**2.0 + (exEnergy-Ed)/(Sn-Ed)*(spinCut2F - discreteSigma**2.0))
-	rDist = (2*J+1)/(2*spinCut2)*np.exp(-(J+0.5)**2.0/(2*spinCut2))
+	spinCut2 = np.sqrt(discreteSigma**2.0 + (exEnergy-energyMiddle)/(NeutronSepEn-energyMiddle)*(spinCut2F - discreteSigma**2.0))
+	
+
+	flag = True
+	while (flag == True):
+		J = np.random.randint(0,4)
+		yi = np.random.uniform(0,0.5)
+		spinProb = (2*J+1)/(2*spinCut2)*np.exp(-(J+0.5)**2.0/(2*spinCut2))
+		# testing print statement
+		#print exEnergy, spinProb, yi
+		if yi <= spinProb:
+			spin = int(J)
+			flag = False
+
+	return spin
 
 
 

@@ -10,7 +10,7 @@ using namespace std;
 
 void plot_one_RR_Dis(){
 
-	TString fileString = "./34Ar+a/calcRate/34Ar4He_1.root";
+	TString fileString = "../34Ar+a/calcRate/testingStuff.root";
 	Double_t quant[7];
     Double_t quantPosition[7] = {0.01,0.025,0.16,0.5,0.84,0.975,1.0};
 
@@ -46,10 +46,10 @@ void plot_one_RR_Dis(){
 
 }
 
-void plot_select_RR_Dis(){
+void plot_ALL_RR_Dis(){
 
 
-	TString fileString = "./34Ar+a/calcRate/test.root";
+	TString fileString = "../34Ar+a/calcRate/testingStuff.root";
 	Double_t quant[7];
     Double_t quantPosition[7] = {0.01,0.025,0.16,0.5,0.84,0.975,1.0};
 

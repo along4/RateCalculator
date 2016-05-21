@@ -16,15 +16,9 @@ def guasDistribution(x,mu,sigma):
 def spinDistribution(Ex,J,A,gamma,aTilde,detlaW,Sn,discreteSigma,Ed):
 
 	U = Ex - 12.0/np.sqrt(A) + 0.90090 
-
 	a = aTilde*(1+detlaW*((1-np.exp(-gamma*U))/U))
-	
 	spinCut2F = 0.01389*A**(5.0/3.0)/aTilde*np.sqrt(a*U)
-
 	spinCut2 = np.sqrt(discreteSigma**2.0 + (Ex-Ed)/(Sn-Ed)*(spinCut2F - discreteSigma**2.0))
-
-	#print 'a: %.3f \t Sigma: %.3f' % (a,spinCut2)
-
 	rDist = (2*J+1)/(2*spinCut2)*np.exp(-(J+0.5)**2.0/(2*spinCut2))
 
 	return rDist
@@ -55,28 +49,31 @@ energyDist3 = spinDistribution(exEnergy, 3, A, gamma, aTilde, detlaW, NeutronSep
 energyDist4 = spinDistribution(exEnergy, 4, A, gamma, aTilde, detlaW, NeutronSepEn, discreteSigma, energyMiddle)
 
 
-spinRange = np.arange(0,6,1)
+spinRange = np.arange(0,6,0.01)
 spinDist0 = spinDistribution(7.0, spinRange, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle)
 spinDist1 = spinDistribution(9.0, spinRange, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle)
 spinDist2 = spinDistribution(11.0, spinRange, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle)
 spinDist3 = spinDistribution(13.0, spinRange, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle)
 spinDist4 = spinDistribution(15.0, spinRange, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle)
 
-print 
 
 acceptedList = []
 
-i = 0
-while i < 1000:
+
+flag = True
+
+while (flag == True):
 	xi = np.random.uniform(0,6)
 	yi = np.random.uniform(0,0.5)
 	if yi <= spinDistribution(7.0, xi, A, gamma, aTilde, detlaW,NeutronSepEn, discreteSigma, energyMiddle):
-		acceptedList.append(xi)
-		i = i + 1
+		print "HIT"
+		flag = False
 
-print i
+
+
 
 figure = pyplot.figure()
+figure.set_size_inches(6, 9)
 axis1 = pyplot.subplot2grid((4,2), (0,0), colspan=2,rowspan=2)
 axis2 = pyplot.subplot2grid((4,2), (2,0), colspan=2, rowspan=2)
 pyplot.subplots_adjust(hspace=1.0)
@@ -90,6 +87,7 @@ axis1.bar(exEnergy,energyDist4,dEx,bottom=energyDist0+energyDist1+energyDist2+en
 #energyDistPlot2, = axis1.bar(exEnergy,energyDist2,0.5,label="J = 2")
 #energyDistPlot3, = axis1.bar(exEnergy,energyDist3,0.5,label="J = 3")
 #energyDistPlot4, = axis1.bar(exEnergy,energyDist4,0.5,label="J = 4")
+
 axis1.set_ylabel('Probability')
 axis1.set_xlabel('Excitation Energy [MeV]')
 axis1.set_xlim([6.0,14.0])
@@ -97,7 +95,7 @@ axis1.set_ylim([0,1.0])
 #axis1.legend([energyDistPlot0,energyDistPlot1,energyDistPlot2,energyDistPlot3,energyDistPlot4],["J = 0","J = 1", "J = 2", "J = 3", "J = 4 "],loc=1,frameon = True,framealpha=0.5)
 
 
-spinDistPlot0, = axis2.plot(spinRange,spinDist0,label="Ex = 7.0 MeV",color=colors_b[0])
+spinDistPlot0, = axis2.plot(spinRange,spinDist0,label="Ex = 7.0 MeV",color=colors_b[0],lw=3)
 spinDistPlot1, = axis2.plot(spinRange,spinDist1,label="Ex = 9.0 MeV",color=colors_b[1])
 spinDistPlot2, = axis2.plot(spinRange,spinDist2,label="Ex = 11.0 MeV",color=colors_b[2])
 spinDistPlot3, = axis2.plot(spinRange,spinDist3,label="Ex = 13.0 MeV",color=colors_b[3])
@@ -111,7 +109,7 @@ figure.set_size_inches(6, 9)
 
 pyplot.legend(frameon=False)
 figure.savefig('spinDists.png', dpi=100)
-#pyplot.show()
+pyplot.show()
 
 
 

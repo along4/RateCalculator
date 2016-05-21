@@ -65,7 +65,7 @@ def getReactionParticipants(reactionString):
 
 #	
 #........................................................................................................
-def calcResonacneEnergy(resonance,exState,Thres):
+def calcResonacneEnergy(exState,Thres):
 	res = exState - Thres
 	return res
 
@@ -96,20 +96,37 @@ def calcReactionRate(resonances,temps,Thres,masses):
 	alphaStrength =  0.15
 	protonStrength = 0.01
 	reducedMass = masses[0]*masses[1]/(masses[0]+masses[1])
-	resonanceEnergies = [calcResonacneEnergy(resonances,exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]
+	resonanceEnergies = [calcResonacneEnergy(exState,Thres) for exState in sorted(resonances, key=resonances.get, reverse=False)]
 	resonanceStrengths = [calcResonanceStrength(random.randrange(0,5),resonances,exState,protonStrength,alphaStrength) for exState in sorted(resonances, key=resonances.get, reverse=False)]
 	
 	#Creating one posibble alpha cluster state
 	#i = random.randint(0,4)
 	#resonanceStrengths[i] = resonanceStrengths[i]*10
 
+	# A testing print statement
+	#for i in range(len(resonanceEnergies)):
+	#	print '%e\t%e' % (resonanceEnergies[i],resonanceStrengths[i])
+
 	reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
 	return reactionRate
 
 #	
 #........................................................................................................
-def getSpinAtGivenEnergy():
+def getFGasSpinAtGivenEnergy(exEnergy):
+	A = 37.976318 				# Mass of 38Ca in amu
+	gamma = 0.12204				# Damping parameter
+	aTilde = 4.95218			# Asymptotic level density value
+	detlaW = 0.13433			# Shell correction energy
+	NeutronSepEn = 16.99376		# Neutron Separation energy
+	discreteSigma = 1.58114 	# Discrete spin cut off parameter
+	energyMiddle = 0.5*(5.6980+4.748000)
 
+
+	U = exEnergy - 12.0/np.sqrt(A) + 0.90090 
+	a = aTilde*(1+detlaW*((1-np.exp(-gamma*U))/U))
+	spinCut2F = 0.01389*A**(5.0/3.0)/aTilde*np.sqrt(a*U)
+	spinCut2 = np.sqrt(discreteSigma**2.0 + (exEnergy-Ed)/(Sn-Ed)*(spinCut2F - discreteSigma**2.0))
+	rDist = (2*J+1)/(2*spinCut2)*np.exp(-(J+0.5)**2.0/(2*spinCut2))
 
 
 

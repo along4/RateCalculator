@@ -106,6 +106,9 @@ def calcReactionRate(resonances,temps,Thres,masses):
 	reactionRate = [calcRateAtTemp(resonanceEnergies,resonanceStrengths,temperature,reducedMass) for temperature in temps]
 	return reactionRate
 
+#	
+#........................................................................................................
+def getSpinAtGivenEnergy():
 
 
 

@@ -265,7 +265,6 @@ axis2.fill_between(temps, lowerRatioRate ,upperRatioRate, color=colors[3],alpha=
 #	Setting up the legend and ticks.
 #....................................................................... 
 axis1.legend([nonSmokerPlot,tayls16Plot,medianRatePlot,upper68RatePlot,upper95RatePlot,rmatrixPlot,rdStanPlot],[r'NON-SMOKER$^{WEB}$','Talys 1.6','Median Rate','68% limit','95% limit','R-Matrix Plot','Random Spin Set'],loc=2,frameon = False)
-axis1.legend
 pyplot.xticks([.2,.3,.4,.5,1,2,3],[ r'.2', r'.3', r'.4', r'.5', r'1', r'2', r'3'])
 
 
